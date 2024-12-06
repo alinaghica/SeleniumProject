@@ -77,7 +77,7 @@ public class WebTableTest {
 
         //inseram Departament
         WebElement departmentField = driver.findElement(By.id("department"));
-        String departmentValue = "WDM PERU";
+        String departmentValue = "ABC DEFG";
         departmentField.sendKeys(departmentValue);
 
         //click on Submit
@@ -90,7 +90,7 @@ public class WebTableTest {
 
     }
 
-  // test comment pentru git hub
+
 
 
 
