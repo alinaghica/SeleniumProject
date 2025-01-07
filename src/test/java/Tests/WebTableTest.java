@@ -81,7 +81,7 @@ public class WebTableTest {
         departmentField.sendKeys(departmentValue);
 
         //click on Submit
-        WebElement submitField = driver.findElement(By.xpath("//button[@id='submit']"));
+       WebElement submitField = driver.findElement(By.xpath("//button[@id='submit']"));
         //Use JavaScript to click the button
         js.executeScript("arguments[0].click();", submitField);
 
